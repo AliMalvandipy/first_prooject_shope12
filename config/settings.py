@@ -42,13 +42,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #Local Apps
-    'accounts',
-    'pages',
+    'accounts.apps.AccountsConfig',
+    'pages.apps.PagesConfig',
+    'products.apps.ProductsConfig',
     #Third Party Apps
     'crispy_forms',
     'crispy_bootstrap4',
     'allauth',
     'allauth.account',
+
 
 ]
 
@@ -133,6 +135,12 @@ AUTHENTICATION_BACKENDS =[
 ]
 
 EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
+# EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST='smtp.gmail.com'
+# EMAIL_USE_TLS=True
+# EMAIL_PORT=587
+# EMAIL_HOST_USERNAME='alimalvandi2016@gmail.com'
+# EMAIL_HOST_PASSWORD='eihnzffciqvhccsq'
 
 
 # Internationalization
