@@ -1,0 +1,13 @@
+BBBB BBBBBBB
+BBBBBBBBBBBB BBBB BB BBBBBBBBBBBB
+BBBB BBBB
+BBBBBBBBBB BBB
+ gettext(u'\n\nHello From %(site_name)s.\n\nIf you requested this email Please click on the link below :\n\n %(activate_url)s\n ') 
+
+SSSSS SSSS SSSSSSSSSSSSSS
+
+SS SSS SSSSSSSSS SSSS SSSSS SSSSSS SSSSS SS SSS SSSS SSSSS S
+
+ SSSSSSSSSSSSSSSS
+ 
+ BBBBBBBBBBBBB
