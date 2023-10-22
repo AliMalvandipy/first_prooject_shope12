@@ -40,21 +40,21 @@ class Cart:
             del self.cart[product_id]
             self.save()
 
-
     def save(self):
         """
         Mark session as modified to save changes
         """
-        self.session.modified=True
+        self.session.modified = True
 
     def __iter__(self):
         product_ids=self.cart.keys()
+        
         products=Product.objects.filter(id__in=product_ids)
 
         cart= self.cart.copy()
 
         for product in products:
-            cart[str(product.id)]['poduct_obj']=product
+            cart[str(product.id)]['product_obj']=product
 
         for items in cart.values():
             yield items
