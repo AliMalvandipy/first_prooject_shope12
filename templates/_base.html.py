@@ -1,4 +1,5 @@
 BBBB BBBBBB
+BBBB BBBB
 XXXXXXXXX XXXXX
 XXXXX XXXXXXXXXX
   XXXXXX
@@ -99,18 +100,22 @@ XXXXX XXXXXXXXXX
                                         XX XXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXX
                                     XXXX
                                     XXX XXXXXXXXXXXXXXXXXXXXXXX
-                                        XXXX
-                                            XX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXX
-                                        XXXXX
-                                        XXXX
-                                            XX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXX
-                                        XXXXX
-                                        XXXX
-                                            XX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXX XXXX XXXXXX
-                                        XXXXX
-                                        XXXX
-                                            XX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXX
-                                        XXXXX
+                                        
+                                        BB BBBBBBBBBBBBBBBBBBBBB
+                                            XXXX
+                                                XX XXXXXXXXXXXXXXXXXX XXXXXXBBB BBBBBBBBBBBBBBBBXX gettext(u'logout') XXXX
+                                            XXXXX
+                                            XXXX
+                                                XX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXX gettext(u'profile') XXXX
+                                            XXXXX
+                                        BBBB
+                                            XXXX
+                                                XX XXXXXXXXXXXXXXXXXX XXXXXXBBB BBBBBBBBBBBBBBBXX gettext(u'login') XXXX
+                                            XXXXX
+                                            XXXX
+                                                XX XXXXXXXXXXXXXXXXXX XXXXXXBBB BBBBBBBBBBBBBBBBXX gettext(u'signup') XXXX
+                                            XXXXX
+                                        BBBBB
                                     XXXXX
                                 XXXXX
                                 XXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -130,6 +135,20 @@ XXXXX XXXXXXXXXX
             XXXXXX
         XXXXXXXXX
         XXXX XXXXXX XXX XXX
+
+        BB BBBBBBBB
+         #
+ #
+ #
+ #
+ #
+
+        XXXX XXXXXXXXXXXXXXXXXX
+            BBB BBBBBBB BB BBBBBBBB
+                XXXX XXXXXXXXXXXX XXXXXXXXXXXXXX
+            BBBBBB
+        XXXXXX
+        BBBBB
     
     BBBBB BBBBBBB
         
