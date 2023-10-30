@@ -42,17 +42,22 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #Local Apps
-    'accounts.apps.AccountsConfig',
-    'pages.apps.PagesConfig',
-    'products.apps.ProductsConfig',
-    'cart.apps.CartConfig',
+    'django.contrib.humanize',
     #Third Party Apps
+    'jalali_date',
     'crispy_forms',
     'crispy_bootstrap4',
     'allauth',
     'allauth.account',
     'rosetta',
+    'ckeditor',
+
+    #Local Apps
+    'accounts.apps.AccountsConfig',
+    'pages.apps.PagesConfig',
+    'products.apps.ProductsConfig',
+    'cart.apps.CartConfig',
+    'persian_translate.apps.PersianTranslateConfig',
 
 
 ]
@@ -197,6 +202,7 @@ ACCOUNT_UNIQUE_EMAIL=True
 # Static File Config
 STATIC_URL = 'static/'
 STATICFILES_DIRS=[os.path.join(BASE_DIR, 'static')]
+STATIC_ROOT=os.path.join(BASE_DIR,'staticfiles')
 
 # Media Files Config
 MEDIA_URL='/media/'
